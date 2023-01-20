@@ -14,8 +14,8 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false)
   return (
     <div className={darkMode ? 'dark' : ''} >
-      <main className=' bg-back px-10 dark:bg-gray-800 '  >
-        <nav className=' h-0 py-10  flex justify-between mb-5 '>
+      <main className=' bg-back  dark:bg-gray-800 '  >
+        <nav className=' h-0 py-10  flex justify-between   bg-back px-5 dark:bg-gray-800'>
           <ul className='flex items-center'>
             <h1 className='text-xl font-burtons dark:text-slate-300 '> NaSH </h1>
           </ul>
@@ -32,24 +32,24 @@ const App = () => {
             <li>
               <a className=' shadow-xl border-2 border-gray-500 text-black px-2 py-2 rounded-2xl ml-3 md:ml-8 hover:bg-slate-500 hover:text-slate-50 transition transform
               dark:text-slate-100' href="../public/cv2.pdf" download>
-                 RESUME </a>
+                RESUME </a>
             </li>
           </ul>
         </nav>
-        <section className='min-h-screen '>
+        <section className='min-h-screen px-10'>
           <About />
 
         </section>
-        <section className='min-h-screen '>
-          <Education/>
+        <section className='min-h-screen px-10'>
+          <Education />
           <Certifications />
           <Portfolio />
 
         </section>
         <section id='footer'>
-        <Footer />
+          <Footer />
         </section>
-        
+
       </main>
 
     </div>
