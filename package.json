@@ -1,5 +1,4 @@
 {
-  "homepage": "https://himaSH97.github.io/Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
+    
     "lint": "next lint"
   },
   "dependencies": {
