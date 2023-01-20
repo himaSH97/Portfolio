@@ -1,5 +1,5 @@
 import React from 'react'
-import { EDUCATIONS } from '../pages/data2.js';
+import { EDUCATIONS } from '../Components/data2.jsx';
 
 const Education = () => {
   return (
@@ -8,7 +8,7 @@ const Education = () => {
             <div className='md:flex p-10 gap-8 justify-between text-left '>
 
                 {EDUCATIONS.map(education => (
-                    <div class="flex h-auto p-2">
+                    <div class="flex h-auto p-2" key ={education.name} >
                         <div class="bg-blue-700 w-1"></div>
                         <div class="pl-[20px] dark:text-gr4">
                             <h3 className=' font-semibold'>{education.name}</h3>

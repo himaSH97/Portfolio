@@ -5,7 +5,6 @@ import {
   AiFillYoutube,
   AiFillFacebook,
 } from "react-icons/ai";
-import { LANGUAGES } from '../pages/data2.js';
 
 const Footer = () => {
   return (
