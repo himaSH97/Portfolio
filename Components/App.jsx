@@ -31,7 +31,7 @@ const App = () => {
             </li>
             <li>
               <a className=' shadow-xl border-2 border-gray-500 text-black px-2 py-2 rounded-2xl ml-3 md:ml-8 hover:bg-slate-500 hover:text-slate-50 transition transform
-              dark:text-slate-100' href="../public/cv2.pdf" download>
+              dark:text-slate-100' href="resume.pdf" download="Himash_CV" target="_blank" >
                 RESUME </a>
             </li>
           </ul>
