@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import pic from "../public/me3.png";
+import pic from "../public/me4.png";
 import YourSvg from "../public/img.svg"
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
                         Sri Jayewardenepura. I am a designer developer and a Machine learning and AI enthusiasts. My current research interests are machine learning explainability.</p>
             </div>
 
-            <div className='relative rounded-full overflow-hidden w-96 h-96 mt-10 mx-auto lg:mt-0 hover:scale-105 transition transform '>
+            <div className='relative rounded-full overflow-hidden w-60 h-60 mt-10 mx-auto lg:mt-10 md:mt-20 md:scale-150 lg:scale-150 hover:scale-105 transition transform '>
               <Image src={pic} className= 'mx-auto lg:scale-100 ' alt=''/>
 
             </div>
