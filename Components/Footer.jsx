@@ -14,19 +14,32 @@ const Footer = () => {
         <ul>
           <li>
             <h5 className='font-semibold text-slate-400'>Mobile:</h5>
-            <p className=' text-green-400'>+94347684943</p>
-            
+            <div class="flex h-auto p-2 " >
+              <div class="bg-yellow-700 w-1"></div>
+              <div class="pl-[20px] dark:text-gr4">
+                <p className=' text-green-400'>+94347684943</p>
+              </div>
+            </div>
+
+
           </li>
           <li>
             <h5 className='font-semibold text-slate-400'>E-mail:</h5>
-            <p className=' text-green-400'>nipun.himash.97@gmail.com</p>
-            
+
+            <div class="flex h-auto p-2 " >
+              <div class="bg-yellow-700 w-1"></div>
+              <div class="pl-[20px] dark:text-gr4">
+                <p className=' text-green-400'>nipun.himash.97@gmail.com</p>
+              </div>
+            </div>
+
+
           </li>
         </ul>
       </div>
       <div className=' p-10  '>
         <h4 className='font-bold pb-2 text-slate-300 text-lg'> Follow me</h4>
-        <div className="text-3xl text-gray-200 dark:text-gray-400 flex gap-2">
+        <div className="text-3xl text-gray-200 dark:text-gray-400 flex gap-3">
           <AiFillTwitterCircle className=' hover:text-black ' />
           <AiFillLinkedin className=' hover:text-black' />
           <AiFillYoutube className=' hover:text-black' />

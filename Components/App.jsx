@@ -40,7 +40,7 @@ const App = () => {
           <About />
 
         </section>
-        <section className='min-h-screen px-10'>
+        <section className='min-h-screen px-10 mt-10'>
           <Education />
           <Certifications />
           <Portfolio />
