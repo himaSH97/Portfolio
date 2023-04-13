@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import pic from "../public/me2.png";
+import pic from "../public/me3.png";
 import YourSvg from "../public/img.svg"
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
             </div>
 
             <div className='relative rounded-full overflow-hidden w-80 h-80 mt-10 mx-auto lg:mt-0 hover:scale-105 transition transform '>
-              <Image src={pic} className= 'mx-auto lg:scale-125 ' alt=''/>
+              <Image src={pic} className= 'mx-auto lg:scale-100 ' alt=''/>
 
             </div>
             
