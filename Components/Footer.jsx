@@ -14,9 +14,9 @@ const Footer = () => {
         <ul>
           <li>
             <h5 className='font-semibold text-slate-400'>Mobile:</h5>
-            <div class="flex h-auto p-2 " >
-              <div class="bg-yellow-700 w-1"></div>
-              <div class="pl-[20px] dark:text-gr4">
+            <div className="flex h-auto p-2 " >
+              <div className="bg-yellow-700 w-1"></div>
+              <div className="pl-[20px] dark:text-gr4">
                 <p className=' text-green-400'>+94347684943</p>
               </div>
             </div>
@@ -26,9 +26,9 @@ const Footer = () => {
           <li>
             <h5 className='font-semibold text-slate-400'>E-mail:</h5>
 
-            <div class="flex h-auto p-2 " >
-              <div class="bg-yellow-700 w-1"></div>
-              <div class="pl-[20px] dark:text-gr4">
+            <div className="flex h-auto p-2 " >
+              <div className="bg-yellow-700 w-1"></div>
+              <div className="pl-[20px] dark:text-gr4">
                 <p className=' text-green-400'>nipun.himash.97@gmail.com</p>
               </div>
             </div>
